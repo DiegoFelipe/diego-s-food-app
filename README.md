@@ -10,3 +10,4 @@ Just practicing react with a food ordering app
 - [React ref](https://reactjs.org/docs/refs-and-the-dom.html) (it actually does  a lot of things for example helps with unnecessary states when you only need to read a value for some input field for example)
 - Avoid unnecessary calls to useEffect by passing properties from an object not the whole object as dependencies.
 - [Forward Refs](https://reactjs.org/docs/forwarding-refs.html) ( a special case when you need to use the ref from a custom component, not from standard HTML  elements by using the useRef and useImperativeHandler hooks, wrapping the custom component with React.forwardRef helper function.
+- Implemented [Absolute Imports](https://create-react-app.dev/docs/importing-a-component/#absolute-imports)
