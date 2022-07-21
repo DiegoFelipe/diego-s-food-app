@@ -15,7 +15,7 @@ const HeaderCartButton = (props) => {
   const { items } = cartCtx;
 
   useEffect(() => {
-    if (cartCtx.items.length === 0) return;
+    if (items.length === 0) return;
     setBtnIsHighlighted(true);
     const timer = setTimeout(() => {
       setBtnIsHighlighted(false);
